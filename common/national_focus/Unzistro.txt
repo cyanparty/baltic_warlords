@@ -1,0 +1,18 @@
+focus_tree = {
+	id = UNZ_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UNZ
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	
+	
+}

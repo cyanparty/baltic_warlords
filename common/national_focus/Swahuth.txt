@@ -1,0 +1,18 @@
+focus_tree = {
+	id = SWA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWA
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	
+	
+}

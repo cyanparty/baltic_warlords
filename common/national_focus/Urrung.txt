@@ -1,0 +1,18 @@
+focus_tree = {
+	id = URR_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = URR
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	
+	
+}

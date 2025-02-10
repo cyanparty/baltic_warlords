@@ -1,0 +1,18 @@
+focus_tree = {
+	id = UCH_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UCH
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	
+	
+}
