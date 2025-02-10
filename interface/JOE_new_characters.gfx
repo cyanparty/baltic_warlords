@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	### ### Latvia
+	### JOE
+
+	spriteType = {
+		name = "GFX_portrait_JOE_duagavplis_guy"
+		textureFile = "gfx/leaders/JOE/portrait_JOE_duagavplis_guy.dds"
+	}
+
+}
