@@ -1,0 +1,35 @@
+
+state={
+	id=138
+	name="STATE_138"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = FAO
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FAO
+	}
+
+	provinces={
+		1389 1390 1391 1392 1393 1394 1395 1396 1397 1400 1401 1402 1403 1404 1405 1408 1409 1410 1411 1412 1413 1414 1415 1416 1417 1418 1419 1420 1422 1423 1424 1425 1427 1428 1429 1430 1433 1434 1435 1436 1438 1439 1440 1441 1442 1443 1444 1445 1446 1447 1398 1399 1406 1407 1421 1426 1431 1432 1437 1448 1449 
+	}
+	local_supplies=0.0 
+}

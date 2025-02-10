@@ -1,0 +1,35 @@
+
+state={
+	id=109
+	name="STATE_109"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = LEO
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LEO
+	}
+
+	provinces={
+		1168 1169 1170 1171 1172 1173 1174 1175 1176 1177 1178 1179 1180 1181 1182 1183 1184 1185 1186 
+	}
+	local_supplies=0.0 
+}

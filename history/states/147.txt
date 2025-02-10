@@ -1,0 +1,35 @@
+
+state={
+	id=147
+	name="STATE_147"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = HIN
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIN
+	}
+
+	provinces={
+		1512 1513 1514 1515 
+	}
+	local_supplies=0.0 
+}

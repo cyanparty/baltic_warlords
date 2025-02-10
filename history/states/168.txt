@@ -1,0 +1,35 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = MUA
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MUA
+	}
+
+	provinces={
+		1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=179
+	name="STATE_179"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = OQU
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = OQU
+	}
+
+	provinces={
+		2141 2142 2143 2144 2145 2146 2147 2148 2149 2150 2151 2152 2153 2154 
+	}
+	local_supplies=0.0 
+}

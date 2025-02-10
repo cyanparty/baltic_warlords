@@ -1,0 +1,35 @@
+
+state={
+	id=149
+	name="STATE_149"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = OQU
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = OQU
+	}
+
+	provinces={
+		1582 1583 1584 1585 1586 1587 1588 1589 1590 
+	}
+	local_supplies=0.0 
+}

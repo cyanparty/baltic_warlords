@@ -1,0 +1,35 @@
+
+state={
+	id=107
+	name="STATE_107"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = POI
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = POI
+	}
+
+	provinces={
+		1143 1145 1146 1147 1148 1149 1150 1151 1144 1152 1153 
+	}
+	local_supplies=0.0 
+}
