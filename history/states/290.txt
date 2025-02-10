@@ -1,0 +1,35 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = BES
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BES
+	}
+
+	provinces={
+		3162 3163 3165 3166 3167 3168 3169 3164 
+	}
+	local_supplies=0.0 
+}

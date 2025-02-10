@@ -1,0 +1,35 @@
+
+state={
+	id=292
+	name="STATE_292"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = PHO
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PHO
+	}
+
+	provinces={
+		3174 3175 3176 3177 3178 3179 3180 3181 
+	}
+	local_supplies=0.0 
+}

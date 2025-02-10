@@ -1,0 +1,35 @@
+
+state={
+	id=328
+	name="STATE_328"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = SWA
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SWA
+	}
+
+	provinces={
+		3476 3477 3478 3479 3480 3481 3482 3483 3484 3485 3486 3487 3488 
+	}
+	local_supplies=0.0 
+}

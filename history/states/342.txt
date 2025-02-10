@@ -1,0 +1,35 @@
+
+state={
+	id=342
+	name="STATE_342"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = URR
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = URR
+	}
+
+	provinces={
+		3609 3610 3611 3612 3613 3614 
+	}
+	local_supplies=0.0 
+}
