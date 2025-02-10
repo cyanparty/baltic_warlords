@@ -1,0 +1,18 @@
+focus_tree = {
+	id = ILI_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ILI
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	
+	
+}
