@@ -1,0 +1,167 @@
+strategic_region={
+	id=105
+	name="STRATEGICREGION_105"
+	provinces={
+		1293 1294 1295 6965 6966 6967 6968 6969 6191 6192 6193 6194 
+	}
+	
+	weather={
+		period={
+			between={ 0.0 30.0 }
+			temperature={ 16.00 30.00 }
+			no_phenomenon=0.500000
+			rain_light=0.200000
+			rain_heavy=0.300000
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.080000
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.1 27.1 }
+			temperature={ 16.00 30.00 }
+			no_phenomenon=0.500000
+			rain_light=0.202825
+			rain_heavy=0.297175
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.079718
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.2 30.2 }
+			temperature={ 15.00 29.00 }
+			no_phenomenon=0.500000
+			rain_light=0.205650
+			rain_heavy=0.294350
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.079435
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.3 29.3 }
+			temperature={ 15.00 29.00 }
+			no_phenomenon=0.500000
+			rain_light=0.208475
+			rain_heavy=0.291525
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.079153
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.4 30.4 }
+			temperature={ 15.00 29.00 }
+			no_phenomenon=0.500000
+			rain_light=0.211300
+			rain_heavy=0.288700
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.078870
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.5 29.5 }
+			temperature={ 14.00 28.00 }
+			no_phenomenon=0.500000
+			rain_light=0.214124
+			rain_heavy=0.285875
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.078588
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.6 30.6 }
+			temperature={ 14.00 28.00 }
+			no_phenomenon=0.500000
+			rain_light=0.216949
+			rain_heavy=0.283051
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.078305
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.7 30.7 }
+			temperature={ 14.00 28.00 }
+			no_phenomenon=0.500000
+			rain_light=0.214124
+			rain_heavy=0.285875
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.078588
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.8 29.8 }
+			temperature={ 15.00 29.00 }
+			no_phenomenon=0.500000
+			rain_light=0.211300
+			rain_heavy=0.288700
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.078870
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.9 30.9 }
+			temperature={ 15.00 29.00 }
+			no_phenomenon=0.500000
+			rain_light=0.208475
+			rain_heavy=0.291525
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.079153
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.10 29.10 }
+			temperature={ 15.00 29.00 }
+			no_phenomenon=0.500000
+			rain_light=0.205650
+			rain_heavy=0.294350
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.079435
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.11 30.11 }
+			temperature={ 16.00 30.00 }
+			no_phenomenon=0.500000
+			rain_light=0.202825
+			rain_heavy=0.297175
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.079718
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		
+	}
+}
