@@ -1,0 +1,35 @@
+
+state={
+	id=394
+	name="STATE_394"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = FRO
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FRO
+	}
+
+	provinces={
+		3963 3964 3966 3967 3971 3975 3976 3980 3981 3983 3984 3986 3987 3988 3989 3962 3965 3968 3969 3970 3972 3973 3974 3977 3978 3979 3982 3985 3990 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=395
+	name="STATE_395"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = REA
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = REA
+	}
+
+	provinces={
+		3991 3992 3993 3994 3995 3996 
+	}
+	local_supplies=0.0 
+}

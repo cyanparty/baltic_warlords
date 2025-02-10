@@ -1,0 +1,35 @@
+
+state={
+	id=420
+	name="STATE_420"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = BUU
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUU
+	}
+
+	provinces={
+		4376 4377 4389 4375 4378 4379 4380 4381 4382 4383 4384 4385 4386 4387 4388 4390 4391 4392 4393 4394 4395 4396 4397 4398 4399 4400 4401 4402 4403 4404 
+	}
+	local_supplies=0.0 
+}
