@@ -1,0 +1,35 @@
+
+state={
+	id=236
+	name="STATE_236"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = UAS
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UAS
+	}
+
+	provinces={
+		2646 2647 2648 2649 2650 2651 2652 2653 2654 2655 2656 
+	}
+	local_supplies=0.0 
+}
