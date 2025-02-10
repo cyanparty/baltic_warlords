@@ -1,0 +1,21 @@
+
+characters = {
+	CHARACTER_Daugavplis_Guy = {
+		name = CHARACTER_Daugavplis_Guy
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JOE_duagavplis_guy
+				small = GFX_portrait_JOE_duagavplis_guy
+			}
+		}
+		country_leader = {
+			expire = "1950.01.01"
+			ideology = despotism
+			traits = {
+				#warrior_code
+				#legitimate_heir
+				#popular_queen
+			}
+		}
+	}
+}
