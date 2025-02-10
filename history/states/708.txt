@@ -1,0 +1,35 @@
+
+state={
+	id=708
+	name="STATE_708"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = BUU
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUU
+	}
+
+	provinces={
+		7012 7014 7016 7017 7018 7019 7020 7022 7024 7025 7026 7027 7028 7029 7030 7031 7032 7033 7034 7011 7013 7015 7021 7023 7035 
+	}
+	local_supplies=0.0 
+}

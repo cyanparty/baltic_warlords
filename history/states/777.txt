@@ -1,0 +1,35 @@
+
+state={
+	id=777
+	name="STATE_777"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = MAS
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MAS
+	}
+
+	provinces={	
+		6347 6348 6349 6350 6351 6352 6353 6354 7153 7154 7155 7156 7157 7158 7159 7160 7290 7291 7292 7293 7294 7295 7296 7297 7500 7501 7502 7503 7504 7505 7506 7507
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=702
+	name="STATE_702"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = HUT
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HUT
+	}
+
+	provinces={
+		6965 6966 6967 6968 6969 
+	}
+	local_supplies=0.0 
+}
