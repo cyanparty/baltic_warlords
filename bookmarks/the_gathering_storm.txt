@@ -1,0 +1,1083 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default = yes
+		
+		
+		ABI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ABR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ABW={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ACH={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		AET={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		AIC={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		APP={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ARI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		BAE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		BES={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		BIT={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		BUU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		CEE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		CES={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		CHO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		COO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		CUS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		DEA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		DEE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		DIO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		DIR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ECI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		EIN={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ENZ={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		FAO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		FES={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		FRO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		FRU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GAA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GAI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GII={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GIN={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GOE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GUT={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HAO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HEC={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HEI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HEN={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HET={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HIC={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HIF={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HIN={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HIS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HOA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HUT={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		HUU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		IBR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ICH={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		IDO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ILI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ILO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		INZ={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		JEI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		JES={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		JOE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		KIE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		KUE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		KUS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		LAI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		LEO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		LUO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		LUT={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MAA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MAS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MEC={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MOA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MOB={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MOI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MOO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		MUA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		NAE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		NAO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		NGI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		NOI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		NON={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		NUI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		NUO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		OND={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		OOD={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		OPI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		OPP={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		OQU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ORR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		OTR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PAA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PHE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PHO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PHU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		PIE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		POI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		QUA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		QUI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RAT={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		REA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RES={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RIK={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RIM={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RIO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RIQ={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RIS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RIU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		RUC={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		SAS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		SEU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		SHA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		STA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		STI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		STO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		STR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		STU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		SUO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		SWA={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		SWO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		TAS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		THO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		TOO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		TRO={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		TUI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UAS={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UBR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UCE={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UCH={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UIT={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UMI={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UNZ={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UOP={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		URD={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		URR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UST={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UTR={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UTU={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		UUT={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		WEC={
+			history = "generic_GATHERING_STORM_DESC"
+			ideology = 
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
