@@ -1,0 +1,35 @@
+
+state={
+	id=647
+	name="STATE_647"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = STU
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = STU
+	}
+
+	provinces={
+		6500 6501 6502 6503 6504 6505 6506 6507 6508 
+	}
+	local_supplies=0.0 
+}

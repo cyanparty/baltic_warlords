@@ -1,0 +1,35 @@
+
+state={
+	id=648
+	name="STATE_648"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = TOO
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TOO
+	}
+
+	provinces={
+		6549 6550 6551 6552 6553 6554 6555 6556 6557 6558 
+	}
+	local_supplies=0.0 
+}

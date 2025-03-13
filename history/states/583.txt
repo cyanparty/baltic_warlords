@@ -1,0 +1,35 @@
+
+state={
+	id=583
+	name="STATE_583"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = MAS
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MAS
+	}
+
+	provinces={
+		5956 5957 5958 5960 5961 5962 5963 5964 5965 5966 5967 5959 
+	}
+	local_supplies=0.0 
+}

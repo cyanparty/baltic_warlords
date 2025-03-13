@@ -1,0 +1,35 @@
+
+state={
+	id=640
+	name="STATE_640"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = OQU
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = OQU
+	}
+
+	provinces={
+		6424 6425 6426 6427 6428 6429 6430 6431 6432 6433 6434 6435 6436 
+	}
+	local_supplies=0.0 
+}

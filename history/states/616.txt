@@ -1,0 +1,35 @@
+
+state={
+	id=616
+	name="STATE_616"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = SWA
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SWA
+	}
+
+	provinces={
+		6208 6209 6210 6211 6212 6213 6214 6215 6216 6217 6218 6219 
+	}
+	local_supplies=0.0 
+}

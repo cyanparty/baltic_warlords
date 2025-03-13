@@ -1,0 +1,35 @@
+
+state={
+	id=670
+	name="STATE_670"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = HUU
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HUU
+	}
+
+	provinces={
+		6700 6701 6702 
+	}
+	local_supplies=0.0 
+}

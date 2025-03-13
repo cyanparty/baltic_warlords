@@ -1,0 +1,35 @@
+
+state={
+	id=662
+	name="STATE_662"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = DEE
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DEE
+	}
+
+	provinces={
+		6638 6639 6640 6641 6642 6644 6645 6646 6643 
+	}
+	local_supplies=0.0 
+}

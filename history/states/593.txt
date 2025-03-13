@@ -1,0 +1,35 @@
+
+state={
+	id=593
+	name="STATE_593"
+	manpower = 50000
+	
+	state_category = wasteland
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		
+		owner = POI
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = POI
+	}
+
+	provinces={
+		4836 6029 6030 6031 6032 6033 6035 6036 6037 6038 6040 6041 6042 6043 6044 6046 6039 6045 
+	}
+	local_supplies=0.0 
+}
