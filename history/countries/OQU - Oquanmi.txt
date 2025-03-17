@@ -101,6 +101,7 @@ set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
+
 set_autonomy = {
 		target = BUU
 		autonomous_state = autonomy_dominion
@@ -120,6 +121,7 @@ set_popularities = {
 }
 
 
-#create_faction = templateFactionName
-#add_to_faction = OQU
+create_faction = Collective-Security-Treaty-Organization
+add_to_faction = UAS
+
 
