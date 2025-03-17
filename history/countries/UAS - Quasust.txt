@@ -102,6 +102,12 @@ set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
+	set_autonomy = {
+		target = TOO
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+}
+
 set_politics = {
 	ruling_party = 
 	last_election = "1933.3.5"
