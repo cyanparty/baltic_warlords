@@ -1,0 +1,1198 @@
+war_justification_decision_category = {
+	### ### Unification
+	unify = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		modifier = {
+			stability_weekly = 0.01
+		}
+		remove_effect  = {
+			if = {
+				limit = { has_country_flag = Flag_West_Estonia }
+				set_country_flag = Flag_East_Estonia
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_East_Estonia }
+				set_country_flag = Flag_West_Estonia
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_East_Lithuanian }
+				set_country_flag = Flag_West_Lithuanian
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_West_Lithuanian }
+				set_country_flag = Flag_East_Lithuanian
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_South_Latvian }
+				set_country_flag = Flag_West_Latvian
+				set_country_flag = Flag_Riga_Latvian
+				set_country_flag = Flag_North_Latvian
+				set_country_flag = Flag_East_Latvian
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_East_Latvian }
+				set_country_flag = Flag_West_Latvian
+				set_country_flag = Flag_Riga_Latvian
+				set_country_flag = Flag_North_Latvian
+				set_country_flag = Flag_South_Latvian
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_North_Latvian }
+				set_country_flag = Flag_West_Latvian
+				set_country_flag = Flag_Riga_Latvian
+				set_country_flag = Flag_East_Latvian
+				set_country_flag = Flag_South_Latvian
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_West_Latvian }
+				set_country_flag = Flag_South_Latvian
+				set_country_flag = Flag_Riga_Latvian
+				set_country_flag = Flag_North_Latvian
+				set_country_flag = Flag_East_Latvian
+			}
+			else_if = {
+				limit = { has_country_flag = Flag_Riga_Latvian }
+				set_country_flag = Flag_West_Latvian
+				set_country_flag = Flag_North_Latvian
+				set_country_flag = Flag_East_Latvian
+				set_country_flag = Flag_South_Latvian
+			}
+		}
+
+		allowed = {
+			NOT = {
+				tag = OQU
+				tag = MAS
+				tag = POI
+				tag = SWA
+				tag = UAS
+			}
+		}
+	}
+	#################################
+	########## Latvia North ##########
+	#################################
+	### Northern Latgalian Military Command
+	seize_Northern_Latgalian_Military_Command = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = SWO
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = SWO
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = SWO }
+			has_country_flag = Flag_North_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_North_Latvian
+		}
+	}
+	### Free Latgale Front
+	seize_Free_Latgale_Front= {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = RIK
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = RIK
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = RIK }
+			has_country_flag = Flag_North_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_North_Latvian
+		}
+	}
+	### Marine Command
+	seize_Marine_Command= {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = DEE
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = DEE
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = DEE }
+			has_country_flag = Flag_North_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_North_Latvian
+		}
+	}
+	### National Provisional Government
+	seize_National_Provisional_Government= {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = PHO
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = PHO
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = PHO }
+			has_country_flag = Flag_North_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_North_Latvian
+		}
+	}
+	### Bearslayers
+	seize_Bearslayers= {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = PIE
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = PIE
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = PIE }
+			has_country_flag = Flag_North_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_North_Latvian
+		}
+	}
+	### Infantry Brigade 'Apple'
+	seize_Infantry_Brigade_Apple = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = ECI
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = ECI
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = ECI }
+			has_country_flag = Flag_North_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_North_Latvian
+		}
+	}
+	#################################
+	########## Latvia Riga ##########
+	#################################
+	### Rigan Anarchy
+	seize_Rigan_Anarchy = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = RI1
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = RI1
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = RI1 }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### nBC
+	seize_nBC = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = RUC
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = RUC
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = RUC }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Rainbow Coalition
+	seize_Rainbow_Coalition = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = URR
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = URR
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = URR }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Jurmala
+	seize_Jurmala = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = RI2
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = RI2
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = RI2 }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Jurmala
+	seize_Jurmala = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = RI2
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = RI2
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = RI2 }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Godkeepers
+	seize_Godkeepers = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = INZ
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = INZ
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = INZ }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Perkonkrusts
+	seize_Perkonkrusts = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = SEU
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = SEU
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = SEU }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Patriot Militias
+	seize_Patriot_Militias = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = KIE
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = KIE
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = KIE }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Tukums State Government
+	seize_Tukums_State_Government = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = LAI
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = LAI
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = LAI }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Red Black Militias
+	seize_Red_Black_Militias = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = HEC
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = HEC
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = HEC }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Semigallian Emergency Coalition
+	seize_Semigallian_Emergency_Coalition = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = UIT
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = UIT
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = UIT }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### 51st Motorized
+	seize_51st_Motorized= {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = HEN
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = HEN
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = HEN }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	### Dobele State Goverment
+	seize_Dobele_State_Goverment= {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = RIS
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = RIS
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = RIS }
+			has_country_flag = Flag_Riga_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_Riga_Latvian
+		}
+	}
+	#################################
+	########## Latvia West ##########
+	#################################
+	### Livonian Coast Defense Guard
+	seize_Livonian_Coast_Defense_Guard = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = HIF
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = HIF
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = HIF } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	### Green Army
+	seize_Green_Army = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = ABI
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = ABI
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = ABI } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	### Ventspils State Government
+	seize_Ventspils_State_Government = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = CEE
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = CEE
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = CEE } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	### Talsi State Government
+	seize_Talsi_State_Government = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = DIO
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = DIO
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = DIO } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	### Steel Group
+	seize_Steel_Group = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = HUU
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = HUU
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = HUU } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	### Neu Kurland
+	seize_Neu_Kurland = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = OPP
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = OPP
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = OPP } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	### Alsunga Free State
+	seize_Alsunga_Free_State = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = HUT
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = HUT
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = HUT } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	### Ventspils Syndicate
+	seize_Ventspils_Syndicate = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = MAA
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = MAA
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = MAA } 
+			has_country_flag = Flag_West_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_West_Latvian
+		}
+	}
+	#################################
+	########## Latvia South ##########
+	#################################
+	### Kuldiga State Government
+	seize_Kuldiga_State_Government = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = GUT
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = GUT
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = GUT } 
+			has_country_flag = Flag_South_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_South_Latvian
+		}
+	}
+	### UN Emergency Refugee Zone
+	seize_UN_Emergency_Refugee_Zone = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = PAA
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = PAA
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = PAA } 
+			has_country_flag = Flag_South_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_South_Latvian
+		}
+	}
+	### Liepaja Government
+	seize_Liepaja_Government = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = WEC
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = WEC
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = WEC } 
+			has_country_flag = Flag_South_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_South_Latvian
+		}
+	}
+	### Union of Free Municipalities
+	seize_Union_of_Free_Municipalities = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = HIN
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = HIN
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = HIN } 
+			has_country_flag = Flag_South_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_South_Latvian
+		}
+	}
+	### ULatvian Red Army
+	seize_Latvian_Red_Army = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = HEI
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = HEI
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = HEI } 
+			has_country_flag = Flag_South_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_South_Latvian
+		}
+	}
+	### NRF
+	seize_NRF = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = GIN
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = GIN
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = GIN } 
+			has_country_flag = Flag_South_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_South_Latvian
+		}
+	}
+	### Curonian Guard
+	seize_Curonian_Guard = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = ORR
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = ORR
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = ORR } 
+			has_country_flag = Flag_South_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_South_Latvian
+		}
+	}
+	#################################
+	########## Latvia East ##########
+	#################################
+	### Daugvaplis
+	seize_daugvaplis = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = JOE
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = JOE
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = JOE } 
+			has_country_flag = Flag_East_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_East_Latvian
+		}
+	}
+	### Catholic National Front
+	seize_Catholic_National_Front = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = STU
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = STU
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = STU }
+			has_country_flag = Flag_East_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_East_Latvian
+		}
+	}
+	### Southern Latgallian Military Command
+	seize_Southern_Latgallian_Military_Command = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = REA
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = REA
+				type = annex_everything
+			}
+		}
+
+		allowed = { 
+			any_neighbor_country = { tag = REA } 
+			has_country_flag = Flag_East_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_East_Latvian
+		}
+	}
+	### Jekabpils Emergency Government
+	seize_Jekabpils_Emergency_Government = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = GII
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = GII
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = GII }  
+			has_country_flag = Flag_East_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_East_Latvian
+		}
+	}
+	### Free Forests
+	seize_JFree_Forests = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = NUI
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = NUI
+				type = annex_everything
+			}
+		}
+
+		allowed = { 
+			any_neighbor_country = { tag = NUI } 
+			has_country_flag = Flag_East_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_East_Latvian
+		}
+	}
+	### Latgallian Republic
+	seize_Latgallian_Republic = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = MOB
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = MOB
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = MOB }
+			has_country_flag = Flag_East_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_East_Latvian
+		}
+	}
+	### Rezekne Goverment
+	seize_Rezekne_Goverment = {
+		icon = decision_icon_increase_border_patrols
+		cost = 50
+		days_re_enable = 14
+		days_remove = 77
+
+		war_with_on_remove = CES
+
+		modifier = {
+			war_support_weekly = 0.005
+		}
+		remove_effect  = {
+			create_wargoal = {
+				target = CES
+				type = annex_everything
+			}
+		}
+
+		allowed = {
+			any_neighbor_country = { tag = CES }
+			has_country_flag = Flag_East_Latvian
+		}
+		visible = {
+			has_country_flag = Flag_East_Latvian
+		}
+	}
+}

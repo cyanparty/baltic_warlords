@@ -1,0 +1,4 @@
+war_justification_decision_category = {
+	# icon = GFX_decision
+	priority = 100
+}
